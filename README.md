@@ -69,6 +69,13 @@ This GitHub repository documents a structured multi-agent system designed to str
 
 ---
 
+## **Tools**
+
+- **Search the Web:** The agent is able to search the web and will decide itself what query to search for based on the goal you set.
+- **Parse Website** The agent is able to parse website that were most interesting from the web search results.
+
+---
+
 ## **How to Run**
 1. Clone the repository.
 2. Initialize the agents and tasks by defining the following inputs:
