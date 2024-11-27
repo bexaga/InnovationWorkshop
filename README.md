@@ -6,11 +6,19 @@ This GitHub repository documents a structured multi-agent system designed to str
 
 ---
 ## **Quick Start (for Users)**
-- Download the MagicCSV.exe from the ./dist folder.
-- Ensure Ollama is installed and running on your system.
-- Make sure you have pulled at least one model from Ollama.
-- Double-click MagicCSV.exe to launch the application.
-- Upload your CSV, configure settings, and process your data!
+- Create an OPENAI API KEY to empower the agents: https://platform.openai.com/
+- Create a SERP API KEY to automate Web searches: https://www.searchapi.io/ (100 free requests)
+- Add OPENAI AND SERP API Keys as secret to your Colab or Python notebook
+- Modify the input to the flow in the last code block:
+      # Run the Workshop
+      
+      inputs = {
+          "brand_name": "iPhone",
+          "company": "Apple",
+          "target_customer": "AI enthusiasts"
+      }
+      result = crew.kickoff(inputs=inputs)
+- Run the flow
 --
 
 
