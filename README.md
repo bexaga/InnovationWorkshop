@@ -6,6 +6,20 @@ This GitHub repository documents a structured multi-agent system designed to str
 
 ---
 ## **Quick Start (for Users)**
+1. Clone the repository.
+2. Create an OPENAI API KEY to empower the agents: https://platform.openai.com/
+3. Create a SERP API KEY to automate Web searches: https://www.searchapi.io/ (100 free requests)
+4. Add OPENAI AND SERP API Keys as secret to your Colab or Python notebook
+5. Initialize the agents and tasks by defining the following inputs in the last section of code block:
+   - `brand_name` (e.g., iPhone)
+   - `company` (e.g., Apple)
+   - `target_customer` (e.g., AI enthusiasts)
+6. Execute the multi-agent system using the `kickoff` function:
+   ```python
+   result = crew.kickoff(inputs={"brand_name": "iPhone", "company": "Apple", "target_customer": "AI enthusiasts"})
+   ```
+
+---
 - Create an OPENAI API KEY to empower the agents: https://platform.openai.com/
 - Create a SERP API KEY to automate Web searches: https://www.searchapi.io/ (100 free requests)
 - Add OPENAI AND SERP API Keys as secret to your Colab or Python notebook
@@ -90,19 +104,6 @@ This GitHub repository documents a structured multi-agent system designed to str
 
 - **Search the Web:** The agent is able to search the web and will decide itself what query to search for based on the goal you set.
 - **Parse Website** The agent is able to parse website that were most interesting from the web search results.
-
----
-
-## **How to Run**
-1. Clone the repository.
-2. Initialize the agents and tasks by defining the following inputs:
-   - `brand_name` (e.g., iPhone)
-   - `company` (e.g., Apple)
-   - `target_customer` (e.g., AI enthusiasts)
-3. Execute the multi-agent system using the `kickoff` function:
-   ```python
-   result = crew.kickoff(inputs={"brand_name": "iPhone", "company": "Apple", "target_customer": "AI enthusiasts"})
-   ```
 
 ---
 
