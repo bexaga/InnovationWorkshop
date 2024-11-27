@@ -11,8 +11,7 @@ This GitHub repository documents a structured multi-agent system designed to str
 - Add OPENAI AND SERP API Keys as secret to your Colab or Python notebook
 - Modify the input to the flow in the last code block:
 
-  #Run the Workshop
-      
+      #Run the Workshop
       inputs = {
           "brand_name": "iPhone",
           "company": "Apple",
