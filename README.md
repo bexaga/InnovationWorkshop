@@ -22,6 +22,7 @@ This GitHub repository documents a structured multi-agent system designed to str
 
 ---
 
+## **Agent configuration**
 
 ### **1. Brand Manager Agent**
 - **Role:** Senior Brand Manager (ex-Procter & Gamble)
