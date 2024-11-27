@@ -5,8 +5,15 @@
 This GitHub repository documents a structured multi-agent system designed to streamline and elevate strategic marketing innovation. The workflow integrates the expertise of distinct roles—Brand Manager, Creative Director, Market Researcher, and Marketing Assistant—each performing specialized tasks to collaboratively generate, evaluate, and document ideas that align with a target audience's needs.
 
 ---
+## **Quick Start (for Users)**
+- Download the MagicCSV.exe from the ./dist folder.
+- Ensure Ollama is installed and running on your system.
+- Make sure you have pulled at least one model from Ollama.
+- Double-click MagicCSV.exe to launch the application.
+- Upload your CSV, configure settings, and process your data!
+--
 
-## **Agents Overview**
+
 ### **1. Brand Manager Agent**
 - **Role:** Senior Brand Manager (ex-Procter & Gamble)
 - **Goal:** Design and test product/service innovations to meet customer needs, grow sales revenue, and build brand equity.
